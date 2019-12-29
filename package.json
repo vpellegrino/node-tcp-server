@@ -1,0 +1,24 @@
+{
+  "name": "node-tcp-server",
+  "description": "a very simple chat server that listens on TCP port 10000 for clients",
+  "version": "1.0.0",
+  "author": "Valentino Pellegrino",
+  "license": "ISC",
+  "homepage": "https://github.com/vpellegrino/node-tcp-server#readme",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpellegrino/node-tcp-server.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "tape test/**/*Test.js"
+  },
+  "engines": {
+    "node": ">=12.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
